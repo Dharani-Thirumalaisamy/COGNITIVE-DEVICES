@@ -1,0 +1,161 @@
+
+class Hyperparameters_1	: 
+  hidden_layers = 2
+  batch_size  = 32
+  num_classes = 10
+  epochs =  10
+  nodes_1 = 32
+  nodes_2 = 64
+  filters = 3
+  dropout_1 = 0.25
+  dropout_2 = 0.5
+  dropout_3 = 0
+  data_augmentation = 'True' 
+  max_pooling =  2
+  activation_1 = 'relu'
+  activation_2 = 'relu'
+  activation_final_layer = 'softmax'
+  dense = 512
+  optimizer = 'adam'
+  num_predictions = 20
+
+class Hyperparameters_2 :
+  hidden_layers = 2
+  batch_size  = 32
+  num_classes = 10
+  epochs =  20
+  nodes_1 = 32
+  nodes_2 = 64
+  filters = 3
+  dropout_1 = 0.2
+  dropout_2 = 0.5
+  dropout_3 = 0
+  data_augmentation = 'True' 
+  max_pooling =  2
+  activation_1 = 'relu'
+  activation_2 = 'relu'
+  activation_final_layer = 'softmax'
+  dense = 512
+  optimizer = 'adam'
+  num_predictions = 20
+  
+class Hyperparameters_3 :
+  hidden_layers = 2
+  batch_size  = 24
+  num_classes = 10
+  epochs =  20
+  nodes_1 = 32
+  nodes_2 = 128
+  filters = 3
+  dropout_1 = 0.2
+  dropout_2 = 0
+  dropout_3 = 0
+  data_augmentation = 'True' 
+  max_pooling =  2
+  activation_1 = 'relu'
+  activation_2 = 'relu'
+  activation_final_layer = 'softmax'
+  dense = 128
+  optimizer = 'sgd'
+  num_predictions = 20
+  
+class Hyperparameters_4 :
+  hidden_layers = 2
+  batch_size  = 32
+  num_classes = 10
+  epochs =  20
+  nodes_1 = 64
+  nodes_2 = 128
+  filters = 3
+  dropout_1 = 0.2
+  dropout_2 = 0
+  dropout_3 = 0
+  data_augmentation = 'True' 
+  max_pooling =  2
+  activation_1 = 'relu'
+  activation_2 = 'tanh'
+  activation_final_layer = 'softmax'
+  dense = 1024
+  optimizer = 'adam'
+  num_predictions = 20
+  
+class Hyperparameters_5 :
+  hidden_layers = 2
+  batch_size  = 32
+  num_classes = 10
+  epochs =  20
+  nodes_1 = 32
+  nodes_2 = 64
+  filters = 3
+  dropout_1 = 0.2
+  dropout_2 = 0.5
+  dropout_3 = 0
+  data_augmentation = 'True' 
+  max_pooling =  2
+  activation_1 = 'relu'
+  activation_2 = 'tanh'
+  activation_final_layer = 'softmax'
+  dense = 1024
+  optimizer = 'rmsprop'
+  num_predictions = 20
+
+class Hyperparameters_6 :
+  hidden_layers = 2
+  batch_size  = 32
+  num_classes = 10
+  epochs =  20
+  nodes_1 = 32
+  nodes_2 = 64
+  filters = 3
+  dropout_1 = 0.2
+  dropout_2 = 0
+  dropout_3 = 0
+  data_augmentation = 'True' 
+  max_pooling =  2
+  activation_1 = 'relu'
+  activation_2 = 'relu'
+  activation_final_layer = 'softmax'
+  dense = 1024
+  optimizer = 'adadelta'
+  num_predictions = 20
+
+class Hyperparameters_7 : 
+  hidden_layers = 3
+  batch_size  = 24
+  num_classes = 10
+  epochs =  10
+  nodes_1 = 32
+  nodes_2 = 64
+  filters = 3
+  dropout_1 = 0.25
+  dropout_2 = 0.5
+  dropout_3 = 0
+  data_augmentation = 'False' 
+  max_pooling =  2
+  activation_1 = 'relu'
+  activation_2 = 'relu'
+  activation_final_layer = 'softmax'
+  dense = 512
+  optimizer = 'adam'  
+  num_predictions = 20
+
+class Hyperparameters_8 : 
+  hidden_layers = 3
+  batch_size  = 64
+  num_classes = 10
+  epochs =  25
+  nodes_1 = 32
+  nodes_2 = 64
+  filters = 3
+  dropout_1 = 0.2
+  dropout_2 = 0
+  dropout_3 = 0
+  data_augmentation = 'False' 
+  max_pooling =  2
+  activation_1 = 'relu'
+  activation_2 = 'relu'
+  activation_final_layer = 'softmax'
+  dense = 1024
+  optimizer = 'sgd'
+  num_predictions = 20
+  
