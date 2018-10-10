@@ -18,8 +18,7 @@ test data set.
 • You are expected to provide a recommendation for the best model you would
 recommend for classification. Which model (with parameter values) would you choose
 and why?<br>
-• Commentonhowgoodyourmodelis?Doesitoverfit/underfitdata?Whatcouldyou
-do to improve the model?
+• Comment on how good your model is?Does it overfit/underfit data?What could you do to improve the model?
 
 PROBLEM 2 :
 
